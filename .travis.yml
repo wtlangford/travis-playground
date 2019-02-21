@@ -1,0 +1,20 @@
+language: c
+stages:
+- test
+- build
+
+python: 3.6
+compiler:
+- gcc
+- clang
+
+os:
+- linux
+- osx
+
+jobs:
+  include:
+  - stage: test
+    script: "echo test"
+  - stage: build
+    script: "echo build"
