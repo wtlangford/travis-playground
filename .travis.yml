@@ -12,7 +12,7 @@ os:
   - linux
   - osx
 
-jobs:
+matrix:
   include:
     - stage: test
       script: "echo test"
