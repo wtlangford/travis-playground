@@ -18,3 +18,5 @@ jobs:
     script: "echo test"
   - stage: build
     script: "echo build"
+
+script: "echo what am i"
